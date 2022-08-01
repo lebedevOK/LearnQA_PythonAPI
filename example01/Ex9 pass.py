@@ -4,7 +4,7 @@ import json
 import time
 import sys
 
-file = open("./pass.txt", "r").readlines()
+file = open("pass.txt", "r").readlines()
 list_pass = []
 for i in file:
     list_pass.append(i.strip())
